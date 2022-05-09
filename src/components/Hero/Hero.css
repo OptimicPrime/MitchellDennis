@@ -1,0 +1,138 @@
+
+body{
+	background-color: #a8d0e6;
+}
+.content {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 0 80px;
+	margin-bottom: 320px;
+      }
+      @media  screen and (max-height: 650px) {
+	      .content{
+		      margin-bottom: 100px;
+	      }
+	      
+      }
+      .hero {
+	position: relative;
+	background: #24305e;
+	color: white;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+      }
+      
+      .hero h2 {
+	position: relative;
+	z-index: 2;
+	font-size: 6rem;
+	margin: 0 0 25px;
+	line-height: 1;
+	color: white;
+      }
+      .hero .Link{
+	font-family: 'Alfa Slab One', cursive;
+	font-family: 'Ranchers', cursive;
+	letter-spacing: 0.1rem;
+	position: relative;
+	max-width: 220px;
+	z-index: 2;
+	margin-top: 30px;
+	font-size: 1.5rem;
+	background-color: #f76c62;
+	color:white;
+	line-height: 1.4;
+	display: block;
+	border: none;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 15px;
+	text-align: center;
+	cursor: pointer;
+      }
+
+      .hero .Link:hover{
+	      color: white;
+	      background-color: #f76c62;
+	      border: outset 3px #f76c62;
+	
+      }
+      .typed-text{
+	font-family: 'Alfa Slab One', cursive;
+	font-family: 'Ranchers', cursive;
+	letter-spacing: 0.1rem;
+	position: relative;
+	z-index: 2;
+	font-size: 2rem;
+	color: white;
+	line-height: 1.4;
+      }
+
+	@media screen and (max-width: 755px) {
+		.hero h2{
+			margin-top: 80px;
+			font-size: 3.0rem;
+		}
+
+		.typed-text{
+			font-size: 1.6rem;
+		}
+		.hero .Link{
+			font-size: 1.6rem;
+			margin-left: 16px;
+		}
+		.content{
+			text-align: center;
+		}
+}
+      
+      /* ========================= */
+      
+      .waves {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 320px;
+	transition: 500ms;
+      }
+      
+      .waves::before,
+      .waves::after {
+	content: '';
+	position: absolute;
+	width: 300vw;
+	height: 300vw;
+	top: -65vw;
+	left: 50%;
+	transform: translate(-50%, -75%);
+      }
+      
+      .waves::before {
+	border-radius: 44%;
+	background: #a8d0e6;
+	animation: waves 8s linear infinite;
+      }
+      
+      .waves::after {
+	border-radius: 44%;
+	animation: waves 15s linear infinite;
+      }
+    
+	
+      
+      @keyframes waves {
+	0% {
+	  transform: translate(-50%, -75%) rotate(0deg);
+	}
+	
+	100% {
+	  transform: translate(-50%, -75%) rotate(360deg);
+	}
+      }
+   

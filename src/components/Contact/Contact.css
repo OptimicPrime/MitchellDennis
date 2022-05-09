@@ -1,0 +1,215 @@
+::placeholder{
+	color:white;
+	letter-spacing: 0.1rem;
+}
+
+.contact-form{
+	  justify-content: center;
+	  background-color: #24305e;
+	  padding-bottom: 150px;
+}
+
+.contact-card{
+	  display: flex;
+	  flex-direction: column;
+	  margin: auto;
+	  background-color: white;
+	  box-shadow: 0px 0px 10px 5px #a8d0e6;
+	  padding: 5px;
+	  font-family: 'Alfa Slab One', cursive;
+	  font-family: 'Ranchers', cursive;
+	  letter-spacing: 0.1rem;
+	  max-width: 900px;
+	  border-radius: 30px;;
+	  justify-content: center;
+}
+
+
+.name-email{
+	  font-size: 1.3rem;
+	  margin-bottom: 20px;
+	  font-family: 'Alfa Slab One', cursive;
+	  font-family: 'Ranchers', cursive;
+	  background-color: #24305e;
+	  color: white;
+	  border: solid white 3px;
+	  border-radius: 10px;
+	  resize: none;
+}
+.name-email:focus{
+	outline: none !important;
+	box-shadow: 0px 0px 10px 1px #a8d0e6;
+	border: solid white 3px;
+}
+
+.name-email::selection{
+	outline: none !important;
+	box-shadow: 0px 0px 10px 1px #a8d0e6;
+	border: solid white 3px;
+}
+
+.send-button{
+	outline: none !important;
+	  font-size: 1.3rem;
+	  background-color: #f76c62;
+	  color: white;
+	  letter-spacing: 00.1rem;
+	  border: none;
+	  padding-top:6px;	
+	  padding-bottom: 6px;
+	  border-radius: 10px;
+	  font-family: 'Alfa Slab One', cursive;
+	  font-family: 'Ranchers', cursive;
+	  cursor: pointer;
+}
+
+.send-button:hover{
+	border: outset 5px #f76c62;
+
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus{
+		border: 3px solid white;
+		-webkit-text-fill-color: white;
+		font-family: 'Alfa Slab One', cursive;
+		font-family: 'Ranchers', cursive;
+		-webkit-box-shadow: 0 0 0px 1000px #24305e inset;
+		transition: background-color 5000s ease-in-out 0s;
+}
+
+.contact-title{
+	  text-align: center;
+	  font-family: 'Alfa Slab One', cursive;
+	  font-family: 'Ranchers', cursive;
+	  letter-spacing: 0.1rem;
+	  font-size: 5rem;
+	  color: white;
+	  margin-bottom: 30px;
+	  padding-top: 80px;
+	  padding-bottom: 50px;
+}
+
+.row-2 {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+      }
+      
+      .column-2 {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	background-color: #24305e;
+	justify-content: center;
+	padding: 60px;
+	border-radius: 0px 25px  25px 0px;
+	border-left: solid white 1px;
+      }
+      
+
+      .column-3 {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	background-color: #24305e;
+	align-items: center;
+	color: white;
+	padding: 75px;
+	border-radius: 25px 0px  0px 25px;
+	border-right: solid white 1px;
+      }
+
+      @media (max-width: 604px) {
+	      .column-2 {
+		border-radius: 0px 0px  25px 25px;
+		border-left: none;
+		border-top: solid white 1.5x;
+      }
+      .column-3{
+	border-radius: 25px 25px  0px 0px;
+	border-right: none;
+		border-bottom: solid white 1.5px;
+      }
+
+      }
+
+      .phone-email-info{
+	font-size: 1.3rem;
+	
+}
+.phone-email-info2{
+	font-size: 1.3rem;
+	
+}
+
+      .phone-email{
+	      border-bottom: solid white 3px;
+	      text-align: center;
+	      padding-bottom: 8px;
+	      font-size: 2.0rem
+      }
+
+
+      .phone-email2{
+	border-bottom: solid white 3px;
+	padding-bottom: 8px;
+	margin-top: 30px;
+	font-size: 2.0rem
+
+}
+
+.contact-card .icon{
+	margin: auto;
+	margin-left: auto;
+	font-size: 2.0rem;
+	margin-bottom: 20px;
+}
+
+.details{
+	text-align: center;
+}
+
+.form-title{
+	text-align: center;
+	color: white;
+	margin-top: 20px;;
+	font-size: 2.5rem;
+}
+
+@media  screen and (max-width: 760px) {
+	.contact-title{
+		font-size: 3.0rem;
+	}
+
+	.phone-email{
+		font-size: 2.0rem;
+	}
+	.phone-email2{
+		font-size:2.0rem;
+	}
+	.phone-email-info{
+		font-size: 1.0rem;
+		
+	}
+	.phone-email-info2{
+		font-size: 1.0rem;
+		
+	}
+	.column-3{
+		padding: 30px;
+	}
+	.name-email{
+		font-size:1.0rem
+	}
+	.form-title{
+		font-size: 2.0rem;
+	}
+	.send-button{
+		font-size: 1.3rem
+	}
+}

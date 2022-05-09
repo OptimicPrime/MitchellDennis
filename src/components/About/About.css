@@ -1,0 +1,127 @@
+.bg {
+	height: 100%;
+	background: #24305e;
+	overflow: hidden;
+	padding-bottom: 100px;
+	margin-top:-2px;
+      }
+.about-title{
+	text-align: center;
+	font-family: 'Alfa Slab One', cursive;
+	font-family: 'Ranchers', cursive;
+	letter-spacing: 0.1rem;
+	font-size: 5rem;
+	margin-bottom: 60px;
+	color: white;
+}
+      
+.social-title{
+	font-size: 2.5rem;
+	color: white;
+}
+
+.skills-title{
+	font-size: 3rem;
+	color: white;
+	border-bottom: solid white 3px;
+	position: relative;
+	font-family: 'Alfa Slab One', cursive;
+		font-family: 'Ranchers', cursive;
+}
+.socials{
+	font-size:2rem; 
+	text-align: center;
+}
+
+.icon{
+	color:white;
+	padding: 10px;
+	border-radius: 10px;
+	border: solid white 3px;
+	cursor:pointer;
+	box-shadow: 0px 0px 10px 1px #a8d0e6;
+}
+
+.icon:hover{
+	background-color: white;
+	color:#f76c62;
+	border: solid white 3px;
+}
+	      
+.skills{
+	font-size:2rem;
+	color: white;
+}
+
+
+      .info{
+		font-family: 'Alfa Slab One', cursive;
+		font-family: 'Ranchers', cursive;
+		letter-spacing: 0.1rem;
+		font-size: 1.5rem;
+		color: white;
+	     
+      }
+
+      .about-container{
+	max-width: 1000px;
+	margin: auto;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.bg .button{
+	font-family: 'Alfa Slab One', cursive;
+	font-family: 'Ranchers', cursive;
+	letter-spacing: 0.1rem;
+	position: relative;
+	max-width: 220px;
+	z-index: 1;
+	margin-top: 35px;
+	font-size: 1.5rem;
+	background-color: #f76c62;
+	color:white;
+	line-height: 1.4;
+	display: block;
+	cursor: pointer;
+	border: none;
+	text-decoration: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 15px;
+	text-align: center;
+	float: left;
+      }
+
+      .bg .button:hover{
+	color: white;
+	background-color: #f76c62;
+	border: outset 3px #f76c62;
+  
+}
+
+@media screen and (max-width: 755px){
+	.about-title{
+		font-size: 3.0rem;
+		margin-top: 0px
+	}
+	.social-title{
+		font-size: 2.0rem;
+	}
+	
+	.skills-title{
+		font-size: 2.0rem;
+	}
+
+	.info{
+		font-size: 1.3rem;
+	}
+
+	.bg .button{
+		font-size: 1.3rem;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

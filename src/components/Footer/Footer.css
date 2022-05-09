@@ -1,0 +1,27 @@
+.footer{
+	height: 100px;
+	width: 100vw;
+	border-top: solid white 3px;
+	justify-content: center;
+	text-align: center;
+}
+
+.footer-logo{
+	font-family: 'Alfa Slab One', cursive;
+	font-family: 'Ranchers', cursive;
+	letter-spacing: 0.1rem;
+	text-decoration: none;
+	    color: white;
+	    text-shadow: 3px 3px 2px #f76c62;
+	    font-size: 2.5rem;
+}
+
+.footer-text{
+	text-align: center;
+	font-family: 'Alfa Slab One', cursive;
+	font-family: 'Ranchers', cursive;
+	letter-spacing: 0.1rem;
+	color: white;
+	margin-top: 6px;
+	font-size: 1.3rem
+}
