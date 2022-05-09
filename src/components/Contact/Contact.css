@@ -51,11 +51,12 @@
 .send-button{
 	outline: none !important;
 	  font-size: 1.3rem;
-	  background-color: #f76c62;
+	  background-color: transparent;
 	  color: white;
 	  letter-spacing: 00.1rem;
 	  border: none;
-	  padding-top:6px;	
+	  padding-top:6px;
+	  border: solid white 3px;	
 	  padding-bottom: 6px;
 	  border-radius: 10px;
 	  font-family: 'Alfa Slab One', cursive;
@@ -64,8 +65,7 @@
 }
 
 .send-button:hover{
-	border: outset 5px #f76c62;
-
+	border: solid #a8d0e6 3px;
 }
 
 input:-webkit-autofill,
