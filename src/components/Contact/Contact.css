@@ -51,8 +51,9 @@
 .send-button{
 	outline: none !important;
 	  font-size: 1.3rem;
-	  background-color: #f76c62;
+	  background-color: transparent;
 	  color: white;
+	  border: solid white 3px;
 	  letter-spacing: 00.1rem;
 	  border: none;
 	  padding-top:6px;	
@@ -64,7 +65,7 @@
 }
 
 .send-button:hover{
-	border: outset 5px #f76c62;
+	border: solid 3px #f76c62;
 
 }
 
