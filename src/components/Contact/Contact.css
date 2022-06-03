@@ -50,11 +50,10 @@
 
 .send-button{
 	  font-size: 1.3rem;
-	  background-color: #24305e;
+	  background-color: transparent;
 	  color: white;
 	  border: solid white 3px;
 	  letter-spacing: 00.1rem;
-	  border: none;
 	  padding-top:6px;	
 	  padding-bottom: 6px;
 	  border-radius: 10px;
