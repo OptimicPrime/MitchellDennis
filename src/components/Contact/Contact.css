@@ -51,12 +51,11 @@
 .send-button{
 	outline: none !important;
 	  font-size: 1.3rem;
-	  background-color: transparent;
+	  background-color: #f76c62;
 	  color: white;
 	  letter-spacing: 00.1rem;
 	  border: none;
-	  padding-top:6px;
-	  border: solid white 3px;	
+	  padding-top:6px;	
 	  padding-bottom: 6px;
 	  border-radius: 10px;
 	  font-family: 'Alfa Slab One', cursive;
@@ -65,7 +64,8 @@
 }
 
 .send-button:hover{
-	border: solid #a8d0e6 3px;
+	border: outset 5px #f76c62;
+
 }
 
 input:-webkit-autofill,
@@ -187,10 +187,10 @@ input:-webkit-autofill:focus{
 	}
 
 	.phone-email{
-		font-size: 2.0rem;
+		font-size: 1.8rem;
 	}
 	.phone-email2{
-		font-size:2.0rem;
+		font-size:1.8rem;
 	}
 	.phone-email-info{
 		font-size: 1.0rem;
@@ -207,7 +207,7 @@ input:-webkit-autofill:focus{
 		font-size:1.0rem
 	}
 	.form-title{
-		font-size: 2.0rem;
+		font-size: 1.8rem;
 	}
 	.send-button{
 		font-size: 1.3rem

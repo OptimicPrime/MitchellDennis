@@ -1,6 +1,7 @@
 .bg2{
 	background: #a8d0e6;
 	background-position: 0 0;
+	width: 100%;
 }
 
 @media screen and (max-width: 900px) {
@@ -53,7 +54,7 @@
 .wrapper {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 380px;
+	max-width: 400px;
 	font-family: 'Alfa Slab One', cursive;
 	font-family: 'Ranchers', cursive;
 	letter-spacing: 0.1rem;
@@ -62,9 +63,10 @@
 .card {
 	
 	border-radius: 30px;
+	margin: 1.5rem;
 	transition: transform .2s; 
-  	margin: 1.5em;
   	overflow: hidden;
+
 }
 
 .card:hover{
@@ -107,9 +109,9 @@ article{
 	@media only screen and (min-width: 768px){
 	  .wrapper{
 	    display: grid;
-	    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
 	    grid-gap: 1.8em;
-	    max-width: 1140px;
+	    max-width: 1000px;
 	    min-width: 380px;
 	    padding: 1.5em;
 	  }

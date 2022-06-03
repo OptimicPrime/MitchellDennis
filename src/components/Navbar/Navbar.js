@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
         <div className='header'>
             <nav className='navbar'>
-                <a href='http://OptimicPrime.github.io/mitchelldennis' className='logo'>MD</a>
+                <a href='/' className='logo'>MD</a>
                 <div className='hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={30} style={{ color: '#ffffff' }} />)
                         : (<FaBars size={30} style={{ color: '#ffffff' }} />)}
