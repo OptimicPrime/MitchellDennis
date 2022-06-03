@@ -36,7 +36,7 @@ function Projects() {
       header="Website"
       title="Blog"
       description="My personal blog designed and built with Next.JS, GraphQl, GraphCMS, and TailwindCSS. Made to promote learning."
-      link='https://electric-factory.vercel.app/post/first-post'
+      link='https://electric-factory.vercel.app/'
     />
     </div>
     </div>
