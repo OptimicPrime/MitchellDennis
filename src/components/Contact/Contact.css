@@ -51,7 +51,7 @@
 .send-button{
 	outline: none !important;
 	  font-size: 1.3rem;
-	  background-color: transparent;
+	  background-color: #24305e;
 	  color: white;
 	  border: solid white 3px;
 	  letter-spacing: 00.1rem;
