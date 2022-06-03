@@ -35,7 +35,7 @@ function Projects() {
       img={Blog}
       header="Website"
       title="Blog"
-      description="My personal blog designed and build with Next.JS, GraphQl, GraphCMS, and TailwindCSS. Made to promote learning."
+      description="My personal blog designed and built with Next.JS, GraphQl, GraphCMS, and TailwindCSS. Made to promote learning."
       link='https://electric-factory.vercel.app/post/first-post'
     />
     </div>
