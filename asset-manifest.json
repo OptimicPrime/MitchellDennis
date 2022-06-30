@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/mitchelldennis/static/css/main.89cd01c3.css",
-    "main.js": "/mitchelldennis/static/js/main.f15afa16.js",
+    "main.js": "/mitchelldennis/static/js/main.9524c5e9.js",
     "static/js/787.1ed0c42c.chunk.js": "/mitchelldennis/static/js/787.1ed0c42c.chunk.js",
     "static/media/Camarico.jpg": "/mitchelldennis/static/media/Camarico.b3a4ad740a890408ab07.jpg",
     "static/media/Hall.jpg": "/mitchelldennis/static/media/Hall.3203c5f5e9741000d163.jpg",
     "static/media/Logo.png": "/mitchelldennis/static/media/Logo.a05bc8f5e5a935a6116a.png",
     "static/media/blog.jpg": "/mitchelldennis/static/media/blog.cb32549634fc1acabd97.jpg",
     "static/media/Music.jpg": "/mitchelldennis/static/media/Music.2af7d95d5f592b7a4b2a.jpg",
-    "static/media/Mitchell-Dennis-Resume.docx": "/mitchelldennis/static/media/Mitchell-Dennis-Resume.b5bc6004784dae68cffd.docx",
+    "static/media/Mitchell-Dennis-Resume.pdf": "/mitchelldennis/static/media/Mitchell-Dennis-Resume.562d8102b4b6cbb78f56.pdf",
     "index.html": "/mitchelldennis/index.html",
     "main.89cd01c3.css.map": "/mitchelldennis/static/css/main.89cd01c3.css.map",
-    "main.f15afa16.js.map": "/mitchelldennis/static/js/main.f15afa16.js.map",
+    "main.9524c5e9.js.map": "/mitchelldennis/static/js/main.9524c5e9.js.map",
     "787.1ed0c42c.chunk.js.map": "/mitchelldennis/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.89cd01c3.css",
-    "static/js/main.f15afa16.js"
+    "static/js/main.9524c5e9.js"
   ]
 }
